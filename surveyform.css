@@ -1,0 +1,49 @@
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: large;
+  background-image: url(backgroundform.jpg);
+  /*Image address from the internet:https://cdn.wallpapersafari.com/68/33/valD7x.jpg*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin: 0px;
+  opacity: 0.8;
+  color: white;
+
+}
+
+form {
+  background-color: #0D47A1;
+  border: thin #0D47A1;
+  border-radius: 10px;
+  text-align: left;
+  margin: 50px 350px 150px 350px;
+  padding: 70px 50px 80px 50px;
+  line-height: 2;
+  box-shadow: -webkit-box-shadow: 1px 20px 21px 13px rgba(0,0,0,0.43);
+-moz-box-shadow: 1px 20px 21px 13px rgba(0,0,0,0.43);
+box-shadow: 1px 20px 21px 13px rgba(0,0,0,0.43);
+
+
+}
+
+header h1 {
+  font-size: 150%;
+}
+header p {
+  font-style: italic;
+}
+
+.sized {
+  width: 650px;
+  height: 25px;
+}
+
+
+
+
+
+
+::placeholder {
+
+}
