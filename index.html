@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elizabeth I Biography Survey Form</title>
     <link rel="stylesheet" href="surveyform.css">
   </head>
@@ -49,7 +49,7 @@
 
     <p>
 
-    Would you recommend EliZabeth I Biography to a friend? <br>
+    Would you recommend Elizabeth I Biography to a friend? <br>
 
     <input type="radio" name="recommend" value="definitely" checked> <label for="recommend">Definitely</label> <br>
     <input type="radio" name="recommend" value="maybe"> <label for="recommend">Maybe</label> <br>
@@ -57,7 +57,7 @@
 
     </p>
     <p>
-      <label for="favorite">What is your favorite feature of EliZabeth I Biography?</label> <br>
+      <label for="favorite">What is your favorite feature of Elizabeth I Biography?</label> <br>
       <select class="sized" name="favorite" required>
         <option value="" disabled selected>Select an option</option>
         <option value="roadmap">Road Map</option>
@@ -86,12 +86,12 @@
     </p>
     <p>
       <label for="doc">Upload extra images, videos and text desired to be added here: </label> <br>
-      <input type="file" name="doc" value="Attach Files">
+      <input id="file" type="file" name="doc" value="Attach Files">
 
     </p>
 
     <p>
-      <input type="submit">
+      <input id="submit" class="sized" type="submit">
     </p>
 
 
